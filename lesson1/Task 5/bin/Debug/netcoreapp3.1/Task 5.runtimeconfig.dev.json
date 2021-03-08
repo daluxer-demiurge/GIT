@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\kozyr\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\kozyr\\.nuget\\packages"
+    ]
+  }
+}
