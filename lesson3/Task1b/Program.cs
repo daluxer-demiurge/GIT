@@ -4,8 +4,9 @@
 //Дописать класс Complex, добавив методы вычитания и произведения чисел. Проверить работу класса;
 //Сержов Михаил
 
-
-class Complex
+namespace Task1b
+{
+    class Complex
 {
     // Все методы и поля публичные. Мы можем получить доступ к ним из другого класса.
     public double im;
@@ -45,24 +46,25 @@ class Complex
         }
 }
 
-class Program
-{
-    static void Main(string[] args)
+    class Program
     {
-        Complex complex1 = new Complex();
-        complex1.re = 1;
-        complex1.im = 1;
+        static void Main(string[] args)
+        {
+            Complex complex1 = new Complex();
+            complex1.re = 1;
+            complex1.im = 1;
 
-        Complex complex2 = new Complex();
-        complex2.re = 2;
-        complex2.im = 2;
+            Complex complex2 = new Complex();
+            complex2.re = 2;
+            complex2.im = 2;
 
-        Complex result = complex1.Plus(complex2);
-        Console.WriteLine(result.ToString());
-        result = complex1.Minus(complex2);
-        Console.WriteLine(result.ToString());
-        result = complex1.Multi(complex2);
-        Console.WriteLine(result.ToString());
+            Complex result = complex1.Plus(complex2);
+            Console.WriteLine(result.ToString());
+            result = complex1.Minus(complex2);
+            Console.WriteLine(result.ToString());
+            result = complex1.Multi(complex2);
+            Console.WriteLine(result.ToString());
+        }
     }
 }
 
