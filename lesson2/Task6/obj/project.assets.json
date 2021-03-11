@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\GB\\GB\\lesson2\\Task6\\Task6.csproj",
+      "projectUniqueName": "C:\\Users\\kozyr\\Desktop\\Медведь учёба\\GIT\\lesson2\\Task6\\Task6.csproj",
       "projectName": "Task6",
-      "projectPath": "C:\\GB\\GB\\lesson2\\Task6\\Task6.csproj",
+      "projectPath": "C:\\Users\\kozyr\\Desktop\\Медведь учёба\\GIT\\lesson2\\Task6\\Task6.csproj",
       "packagesPath": "C:\\Users\\kozyr\\.nuget\\packages\\",
-      "outputPath": "C:\\GB\\GB\\lesson2\\Task6\\obj\\",
+      "outputPath": "C:\\Users\\kozyr\\Desktop\\Медведь учёба\\GIT\\lesson2\\Task6\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
