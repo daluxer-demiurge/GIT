@@ -14,9 +14,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\kozyr\\Desktop\\Медведь учёба\\GIT\\lesson3\\Task1\\Task1.csproj",
-      "projectName": "Task1",
-      "projectPath": "C:\\Users\\kozyr\\Desktop\\Медведь учёба\\GIT\\lesson3\\Task1\\Task1.csproj",
+      "projectUniqueName": "C:\\Users\\kozyr\\Desktop\\Медведь учёба\\GIT\\lesson3\\Task1\\Task1a.csproj",
+      "projectName": "Task1a",
+      "projectPath": "C:\\Users\\kozyr\\Desktop\\Медведь учёба\\GIT\\lesson3\\Task1\\Task1a.csproj",
       "packagesPath": "C:\\Users\\kozyr\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\kozyr\\Desktop\\Медведь учёба\\GIT\\lesson3\\Task1\\obj\\",
       "projectStyle": "PackageReference",
