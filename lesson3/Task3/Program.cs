@@ -16,15 +16,43 @@ namespace Task3
         public int Num;
         public int Denom;
 
-       
 
-             public Fraction Minus(Fraction x)
+        public Fraction Plus(Fraction x)
         {
-                
-           
+            Fraction z = new Fraction();
+            z.Denom = this.Denom * x.Denom;     
+            z.Num = this.Num * x.Denom + x.Num * this.Denom;    
+            return z;
         }
 
+        public Fraction Minus(Fraction x)
+        {
+            Fraction z = new Fraction();
+            z.Denom = this.Denom * x.Num;
+            z.Num = this.Num * x.Denom;
+            return z;
+        }
 
+        public Fraction Multi(Fraction x)
+        {
+            Fraction z = new Fraction();
+            z.Denom = this.Denom * x.Denom;
+            z.Num = this.Num * x.Num;
+            return z;
+        }
+       
+        public Fraction Division(Fraction x)
+        {
+            Fraction z = new Fraction();
+            z.Denom = this.Denom * x.Num;
+            z.Num = this.Num * x.Denom;
+            return z;
+        }
+
+        public string ToString()
+        {
+            return Num + "/" + Denom;
+        }
 
     }
         
@@ -34,15 +62,22 @@ namespace Task3
     {
         static void Main(string[] args)
         {
-            Fraction Fract1 = new Fraction();
-                Fract1.Num = 1;       //Числитель первой дроби
-                Fract1.Denom = 2;    //Знаменатель первой дроби
+            Fraction FractNumber1 = new Fraction();
+            FractNumber1.Num = 1;
+            FractNumber1.Denom = 2;
 
+            Fraction FractNumber2 = new Fraction();
+            FractNumber2.Num = 3;
+            FractNumber2.Denom = 4;
 
-            Fraction Fract2 = new Fraction();
-                Fract2.Num = 3;       //Числитель второй дроби
-                Fract2.Denom = 4;     //Знаменатель второй дроби
-            
+            Fraction result = FractNumber1.Plus(FractNumber2);
+            Console.WriteLine(result.ToString());
+            result = FractNumber1.Minus(FractNumber2);
+            Console.WriteLine(result.ToString());
+            result = FractNumber1.Multi(FractNumber2);
+            Console.WriteLine(result.ToString());
+            result = FractNumber1.Division(FractNumber2);
+            Console.WriteLine(result.ToString());
         }
     }
 }
