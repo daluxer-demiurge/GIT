@@ -62,6 +62,11 @@ namespace Task3
     {
         static void Main(string[] args)
         {
+            //Console.WriteLine("Введите первую дробь. После ввода числителя или знаменателя подтвердите ввод клавишей Enter.");
+            //int a = );
+            //Console.Write("/");
+            //int b = ;
+
             Fraction FractNumber1 = new Fraction();
             FractNumber1.Num = 1;
             FractNumber1.Denom = 2;
