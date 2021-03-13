@@ -20,8 +20,8 @@ namespace Task3
         public Fraction Plus(Fraction x)
         {
             Fraction z = new Fraction();
-            z.Denom = this.Denom * x.Denom;     
-            z.Num = this.Num * x.Denom + x.Num * this.Denom;    
+            z.Denom = this.Denom * x.Denom;
+            z.Num = this.Num * x.Denom + x.Num * this.Denom;
             return z;
         }
 
@@ -40,7 +40,7 @@ namespace Task3
             z.Num = this.Num * x.Num;
             return z;
         }
-       
+
         public Fraction Division(Fraction x)
         {
             Fraction z = new Fraction();
@@ -53,36 +53,42 @@ namespace Task3
         {
             return Num + "/" + Denom;
         }
-
     }
-        
-
-
     class Program
     {
         static void Main(string[] args)
-        {
-            //Console.WriteLine("Введите первую дробь. После ввода числителя или знаменателя подтвердите ввод клавишей Enter.");
-            //int a = );
-            //Console.Write("/");
-            //int b = ;
+        {          
+                          
+                Fraction FractNumber1 = new Fraction();
+                FractNumber1.Num = 1;
+                FractNumber1.Denom = 0;
+                Fraction FractNumber2 = new Fraction();
+                FractNumber2.Num = 3;
+                FractNumber2.Denom = 4;
+            try
+            {
+                int res1 = FractNumber1.Num / FractNumber1.Denom;
+                int res2 = FractNumber2.Num / FractNumber2.Denom;
+                Fraction result = FractNumber1.Plus(FractNumber2);
+                Console.WriteLine(result.ToString());
+                result = FractNumber1.Minus(FractNumber2);
+                Console.WriteLine(result.ToString());
+                result = FractNumber1.Multi(FractNumber2);
+                Console.WriteLine(result.ToString());
+                result = FractNumber1.Division(FractNumber2);
+                Console.WriteLine(result.ToString());
+            }
+            catch
+            {
+                Console.WriteLine("Знаменатель дроби не может быть равным 0");
+            }
+           
+            
+            
+               
+           
+              
 
-            Fraction FractNumber1 = new Fraction();
-            FractNumber1.Num = 1;
-            FractNumber1.Denom = 2;
-
-            Fraction FractNumber2 = new Fraction();
-            FractNumber2.Num = 3;
-            FractNumber2.Denom = 4;
-
-            Fraction result = FractNumber1.Plus(FractNumber2);
-            Console.WriteLine(result.ToString());
-            result = FractNumber1.Minus(FractNumber2);
-            Console.WriteLine(result.ToString());
-            result = FractNumber1.Multi(FractNumber2);
-            Console.WriteLine(result.ToString());
-            result = FractNumber1.Division(FractNumber2);
-            Console.WriteLine(result.ToString());
         }
     }
 }
