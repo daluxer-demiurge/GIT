@@ -1,0 +1,13 @@
+C:\Users\kozyr\Desktop\Медведь учёба\GIT\lesson3\Task1b\bin\Debug\netcoreapp3.1\Task1b.exe
+C:\Users\kozyr\Desktop\Медведь учёба\GIT\lesson3\Task1b\bin\Debug\netcoreapp3.1\Task1b.deps.json
+C:\Users\kozyr\Desktop\Медведь учёба\GIT\lesson3\Task1b\bin\Debug\netcoreapp3.1\Task1b.runtimeconfig.json
+C:\Users\kozyr\Desktop\Медведь учёба\GIT\lesson3\Task1b\bin\Debug\netcoreapp3.1\Task1b.runtimeconfig.dev.json
+C:\Users\kozyr\Desktop\Медведь учёба\GIT\lesson3\Task1b\bin\Debug\netcoreapp3.1\Task1b.dll
+C:\Users\kozyr\Desktop\Медведь учёба\GIT\lesson3\Task1b\bin\Debug\netcoreapp3.1\Task1b.pdb
+C:\Users\kozyr\Desktop\Медведь учёба\GIT\lesson3\Task1b\obj\Debug\netcoreapp3.1\Task1b.csprojAssemblyReference.cache
+C:\Users\kozyr\Desktop\Медведь учёба\GIT\lesson3\Task1b\obj\Debug\netcoreapp3.1\Task1b.AssemblyInfoInputs.cache
+C:\Users\kozyr\Desktop\Медведь учёба\GIT\lesson3\Task1b\obj\Debug\netcoreapp3.1\Task1b.AssemblyInfo.cs
+C:\Users\kozyr\Desktop\Медведь учёба\GIT\lesson3\Task1b\obj\Debug\netcoreapp3.1\Task1b.csproj.CoreCompileInputs.cache
+C:\Users\kozyr\Desktop\Медведь учёба\GIT\lesson3\Task1b\obj\Debug\netcoreapp3.1\Task1b.dll
+C:\Users\kozyr\Desktop\Медведь учёба\GIT\lesson3\Task1b\obj\Debug\netcoreapp3.1\Task1b.pdb
+C:\Users\kozyr\Desktop\Медведь учёба\GIT\lesson3\Task1b\obj\Debug\netcoreapp3.1\Task1b.genruntimeconfig.cache
